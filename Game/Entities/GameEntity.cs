@@ -28,14 +28,23 @@ namespace Game.Entities
         {
         }
 
+        //detects collision between current game entity and another entity passed as an argument
         public virtual bool Collision(GameEntity entity)
         {
             return false;
         }
 
+        //run if two round objects collide
+        public virtual void RoundObjectsCollide(GameEntity entity)
+        {
+
+        }
+
+        //return diameter of round entity
         public virtual float GetDiameter()
         {
             return 0f;
         }
+
     }
 }

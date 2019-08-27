@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+        Title="MainWindow" Height="600" Width="800" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp ">
     <Grid Name="ViewPortContainer">
         <Image Name="ViewPort" Loaded="ViewPort_Loaded">
         </Image>
